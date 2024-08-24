@@ -230,8 +230,8 @@ class PayloadApplier(object):
       self.bspatch_path = "./bspatch" or bspatch_path
       self.puffpatch_path = "./puffin" or puffpatch_path
     else:
-      self.bspatch_path = "/system/bin/bspatch" or bspatch_path
-      self.puffpatch_path = "/system/bin/puffin" or puffpatch_path
+      self.bspatch_path = "/data/local/bin/bspatch" or bspatch_path
+      self.puffpatch_path = "/data/local/bin/puffin" or puffpatch_path
 
     self.bsdiff_in_place = bsdiff_in_place
     self.truncate_to_expected_size = truncate_to_expected_size
