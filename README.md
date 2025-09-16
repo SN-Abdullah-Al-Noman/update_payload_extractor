@@ -18,3 +18,6 @@ pip3 install -r requirements.txt
 ```
 ./extract.py [--skip_hash] [--ignore_block_size] [--output dir <output-dir-name>] [--old_dir <old-dir-name>] payload.bin
 ```
+chmod +x extract.py
+
+python3 extract.py --skip_hash --ignore_block_size --output dir output-dir-name --old_dir old-dir-name payload.bin
